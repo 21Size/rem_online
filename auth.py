@@ -1,5 +1,6 @@
-import requests as rq
 import json
+
+import requests as rq
 
 
 def get_token():

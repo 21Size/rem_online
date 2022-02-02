@@ -1,10 +1,11 @@
+from urllib import parse
+
+import phonenumbers
+import requests as rq
 from flask import Flask
 from flask import request
-import requests as rq
+
 from auth import get_token
-import json
-import phonenumbers
-from urllib import parse
 
 app = Flask(__name__)
 
